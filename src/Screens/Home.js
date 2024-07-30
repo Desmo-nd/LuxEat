@@ -49,8 +49,58 @@ const Home = () => {
                     <div className="TopImage">
                         <img src="./images/back.jpeg" alt="food" />
                     </div>
-                </div>
+                </div> 
             </div>
+            <div className="Locate">
+                    <div className="grid">
+                        <div className="pin">
+                            <img src="./images/location.svg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Locate Us</p>
+                                <p id="location">Riverside 25, Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        <div className="pin">
+                            <img src="./images/location.svg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Reservation</p>
+                                <p id="location">restuarantate@gmail.com</p>
+                            </div>
+                        </div>
+                        <div className="pin">
+                            <img src="./images/location.svg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Open hours</p>
+                                <p id="location">Mon To Fri 9:00 AM - 9:00 PM</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="Interior">
+                        <img className="story-image" src="./images/seats.jpg" alt="map" />
+                    </div>
+
+                    <div className="story">
+                        <h1 id="about">The Delicious Story</h1>
+                        <p id="content1">The people, food and the prime locations make the perfect
+                             place good friends & family to come together and have great time. </p>
+                            <div className="grid1">
+                                <div className="year1">
+                                    <h1 id='year'>2022</h1>
+                                    <p id="Plan">Plan for this restaurant to deliver healthy food.</p>
+                                </div>
+                                <div className="year1">
+                                    <h1 id='year'>2024</h1>
+                                    <p id="Plan">Happily in the fourth year by fulfilling the motto.</p>
+                                </div>
+                            </div>
+
+                        <div className="sign">
+                            <p id="sign">Desmond</p>
+                            <img src="./images/sign.svg" alt="sign" />
+                        </div>
+                    </div>
+                </div>
         </div>
     );
 };

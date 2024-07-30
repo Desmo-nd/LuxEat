@@ -21,6 +21,10 @@ body {
     border: #e1b168 solid 2px;
     margin: auto;
 }
+.phone :hover {
+    background: #e1b168;
+    height: 100%;
+}
 #call {
     padding: 10px;
     color: #fff;
@@ -32,6 +36,9 @@ body {
     margin: auto;
     background: #e1b168;
     margin: auto;
+}
+.Reserv :hover {
+    background: transparent;
 }
 #reservation {
     padding: 10px;
@@ -64,7 +71,9 @@ body {
     color: #fff;
     text-decoration: none;
 }
-
+.left ul li :hover {
+    color: #e1b168;
+}
 .right ul{
     display: flex;
     justify-content: space-around;
@@ -125,3 +134,135 @@ body {
     border-left:  #3d4249 solid 19px;
     border-right:  #3d4249 solid 19px;
 }   
+
+.pin {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.pin img {
+    width: 100px;
+    height: 100px;
+    background: #292e36;
+    border-radius: 50%;
+}
+
+.Locate {
+    background: #fff8f5;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+@media (min-width: 300px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.pin {
+    display: flex;
+}
+.toppa{
+    
+}
+#locate{
+    color: #000;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+#location{
+    color: #000;
+    font-size: 1em;
+}
+.Interior {
+    display: flex;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 3.5%;
+}
+
+.story-image {
+    width: 100%;
+    max-width: 642px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.story{
+    width: 85%;
+    padding: 20px;
+    color: #000;
+}
+#about {
+    font-size: 2em;
+    margin: 0;
+    padding-left: 4%;
+}
+#content1{
+    padding: 20px;
+    color: #000;
+    border-radius: 10px;
+    width: 47%;
+}
+.grid1 {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+@media (min-width: 600px) {
+    .grid1 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.year1 {
+    /* padding: 20px; */
+}
+
+#year {
+    font-size: 2em;
+    margin: 0;
+}
+
+#Plan {
+    font-size: 1em;
+    margin: 0;
+}
+.sign {
+    padding-left: 2%;
+}
+
+#sign {
+    font-size: 1.4em;
+    margin: 0;
+}
+.sign img{
+    width: auto;
+    height: auto;
+}
+
