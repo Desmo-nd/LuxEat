@@ -52,55 +52,154 @@ const Home = () => {
                 </div> 
             </div>
             <div className="Locate">
-                    <div className="grid">
-                        <div className="pin">
-                            <img src="./images/location.svg" alt="location" />
-                            <div className="toppa">
-                                <p id="locate">Locate Us</p>
-                                <p id="location">Riverside 25, Nairobi, Kenya</p>
-                            </div>
+                <div className="grid">
+                    <div className="pin">
+                        <img src="./images/location.svg" alt="location" />
+                        <div className="toppa">
+                            <p id="locate">Locate Us</p>
+                            <p id="location">Riverside 25, Nairobi, Kenya</p>
                         </div>
-                        <div className="pin">
-                            <img src="./images/location.svg" alt="location" />
-                            <div className="toppa">
-                                <p id="locate">Reservation</p>
-                                <p id="location">restuarantate@gmail.com</p>
-                            </div>
-                        </div>
-                        <div className="pin">
-                            <img src="./images/location.svg" alt="location" />
-                            <div className="toppa">
-                                <p id="locate">Open hours</p>
-                                <p id="location">Mon To Fri 9:00 AM - 9:00 PM</p>
-                            </div>
-                        </div>
-
                     </div>
-                    <div className="Interior">
+                    <div className="pin">
+                        <img src="./images/book1.svg" alt="location" />
+                        <div className="toppa">
+                            <p id="locate">Reservation</p>
+                            <p id="location">restuarantate@gmail.com</p>
+                        </div>
+                    </div>
+                    <div className="pin">
+                        <img src="./images/speed.svg" alt="location" />
+                        <div className="toppa">
+                            <p id="locate">Open hours</p>
+                            <p id="location">Mon To Fri 9:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="Interior">
                         <img className="story-image" src="./images/seats.jpg" alt="map" />
+                </div>
+
+                <div className="story">
+                    <h1 id="about">The Delicious Story</h1>
+                    <p id="content1">The people, food and the prime locations make the perfect
+                            place good friends & family to come together and have great time. </p>
+                    <div className="grid1">
+                        <div className="year1">
+                            <h1 id='year'>2022</h1>
+                            <p id="Plan">Plan for this restaurant to deliver healthy food.</p>
+                        </div>
+                        <div className="year1">
+                            <h1 id='year'>2024</h1>
+                            <p id="Plan">Happily in the fourth year by fulfilling the motto.</p>
+                        </div>
                     </div>
 
-                    <div className="story">
-                        <h1 id="about">The Delicious Story</h1>
-                        <p id="content1">The people, food and the prime locations make the perfect
-                             place good friends & family to come together and have great time. </p>
-                            <div className="grid1">
-                                <div className="year1">
-                                    <h1 id='year'>2022</h1>
-                                    <p id="Plan">Plan for this restaurant to deliver healthy food.</p>
-                                </div>
-                                <div className="year1">
-                                    <h1 id='year'>2024</h1>
-                                    <p id="Plan">Happily in the fourth year by fulfilling the motto.</p>
-                                </div>
-                            </div>
+                    <div className="sign">
+                        <p id="sign">Desmond</p>
+                        <img src="./images/sign.svg" alt="sign" />
+                    </div>
+                </div>
+            </div>
+            <div className="menu">
+                <div className="menu-grid">
+                    <div className="menu1">
+                    <hi id="menu">Menu</hi>
+                       <h1 id="try">Try Our Special Dishes</h1>
+                       <p id="content2">Every time you perfectly dine with us, it should happy 
+                        for great inspired food in an environment designed with individual touches unique to the local area.</p> 
+                        <img src="./images/crab.jpg" alt="food" />
+                        <div className="See">
+                            <p id="see">See all dishes</p>
+                        </div>
+                    </div>
 
-                        <div className="sign">
-                            <p id="sign">Desmond</p>
-                            <img src="./images/sign.svg" alt="sign" />
+                    <div className="menu2">
+                        <h1 id="starter">Starters</h1>
+                        <div className="pin">
+                            <img src="./images/glass3.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Raw Scallops from Erquy</p>
+                                <p id="location">Shuck the scallop to that used for oysters___$40</p>
+                            </div>
+                        </div>
+
+                        <div className="pin">
+                            <img src="./images/chapps.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Spring Roll</p>
+                                <p id="location">Add oil to a hot pan spring onion whites___$20</p>
+                            </div>
+                        </div>
+
+                        <div className="pin">
+                            <img src="./images/egg.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">French Onion Soup</p>
+                                <p id="location">Wheat flour, apple cider vinegar, bread___$25</p>
+                            </div>
+                        </div>
+                        
+                        <div className="pin">
+                            <img src="./images/plata3.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Tomato Bruschetta</p>
+                                <p id="location">Bread, olive oil, garlic, black pepper___$30</p>
+                            </div>
+                        </div>
+
+                        <h1 id="starter">Main Dish</h1>
+                        <div className="pin">
+                            <img src="./images/plata.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Grilled Salmon with Dill Sauce</p>
+                                <p id="location">Brown sugar, salmon fillet, Dijon mustard___$40</p>
+                            </div>
+                        </div>
+
+                        <div className="pin">
+                            <img src="./images/plata2.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Roast Beef with Vegetable</p>
+                                <p id="location">Green beans, rib eye, olive oil, beef___$20</p>
+                            </div>
+                        </div>
+
+                        <div className="pin">
+                            <img src="./images/plata22.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Marrkesh Vegetetarian Curruy</p>
+                                <p id="location">Sweet potato, eggplant, garbanzo bean___$25</p>
+                            </div>
+                        </div>
+
+                        <div className="pin">
+                            <img src="./images/plata11.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Spicy Vegan Potato Curry</p>
+                                <p id="location">Coconut milk, beans, potatoes, curry powder___$35</p>
+                            </div>
+                        </div>
+
+                        <h1 id="starter">Dessert</h1>
+                        <div className="pin">
+                            <img src="./images/plata4.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Apple Pie with Cream</p>
+                                <p id="location">Whipping cream, egg white, cinnamon___$15</p>
+                            </div>
+                        </div>
+                        
+                        <div className="pin">
+                            <img src="./images/cup1.jpg" alt="location" />
+                            <div className="toppa">
+                                <p id="locate">Lemon Meringue Pie</p>
+                                <p id="location">Frozen pie crust, meringue, lemon___$30</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     );
 };
