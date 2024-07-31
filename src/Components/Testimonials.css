@@ -1,0 +1,98 @@
+.Testimonial {
+    padding: 10px 50px ;
+    background-color: #292e36;
+
+  }
+  #testi {
+    width: 108px;
+    font-size: 1.1em;
+    color: #fff;
+    border-bottom: #e1b168 solid 1px;
+    border-top: #e1b168 solid 1px;
+  }
+  #Our{
+    font-size: 2em;
+    color: #fff;
+  }
+  #Love{
+    font-size: 1.1em;
+    color: #fff;
+  }
+  .carousel-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .testContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .test {
+    background: #343942;
+    padding: 20px;
+    margin: 10px;
+    width: 100%; 
+  }
+  
+  .ImgName {
+    display: flex;
+    align-items: center;
+    border-bottom: #bbb solid 1px;
+    padding-bottom: 20px;
+}
+  
+  .ImgName img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .NameLoc {
+    text-align: left;
+  }
+  #Name1 {
+    color: #fff;
+    font-size: 1.33em;
+  }
+  #Loaction11 {
+    color: #e1b168;
+    font-size: 1.04em;
+  }
+  #Content11 {
+    color: #fff;
+
+  }
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  

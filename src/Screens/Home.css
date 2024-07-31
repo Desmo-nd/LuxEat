@@ -274,7 +274,7 @@ body {
 }
 @media (min-width: 600px) {
     .menu-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.4fr;
     }
 }
 

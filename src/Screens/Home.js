@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import './Home.css';
+import TestimonialCarousel from '../Components/Testimonials'
 
 const Home = () => {
     return (
@@ -101,6 +102,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             <div className="menu">
                 <div className="menu-grid">
                     <div className="menu1">
@@ -200,8 +202,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <TestimonialCarousel/>
         </div>
+
+       
     );
+   
 };
 
 export default Home;
