@@ -202,7 +202,47 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             <TestimonialCarousel/>
+
+            <div className='offers'>
+                <div className='tittleHead'>
+                    <h1 id='Offers'>OFFERS</h1>
+                </div>
+                <h1 id='offer'>Our Offer Dishes</h1>
+                <p id='chefs'>Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now
+                    the dishes are in offers use it based on hunger.
+                </p>
+                <div className='offerGrid'>
+                    <div className='Bugger'>
+                        <div className='offerpic'>
+                            <img src='./images/offer2.svg' alt='offer1' />
+                            <div className='KshOffer'>
+                                <label id='only'>ONLY</label> <br/>
+                                <label id='Kshs'>$ 10</label>
+                            </div>
+                        </div>
+                        <p id='going'>50% OFFER GOING</p>
+                        <h1 id='offerName'>Chicken Burger</h1>
+                        <p id='offerDec'>Chicken burger with the tasty toppings and leaves.</p>
+                        <img src='./images/bugger.png' alt='offer1' />
+                    </div>
+                    <div className='Pizza'>
+                    <div className='offerpic'>
+                            <img src='./images/offer1.svg' alt='offer1' />
+                            <div className='KshOffer'>
+                                <label id='only1'>ONLY</label> <br/>
+                                <label id='Kshs1'>$ 9</label>
+                            </div>
+                        </div>
+                        <p id='going'>50% OFFER GOING</p>
+                        <h1 id='offerName'>Chicken Pizzae</h1>
+                        <p id='offerDec'>Pizza with multiple flavor and the toping are mixed.</p>
+                        <img src='./images/pizza.png' alt='offer2' />
+                        
+                    </div> 
+                </div>
+            </div>
         </div>
 
        
