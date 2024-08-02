@@ -243,6 +243,59 @@ const Home = () => {
                     </div> 
                 </div>
             </div>
+
+
+            <div className='MenuMain'>
+                <div className='tittleHead'>
+                    <h1 id='Offers'>MENU</h1>
+                </div>
+                <h1 id='offer'>Popular Dishes</h1>
+                <p id='chefs'>There is a game between the waiters in restaurant to see who serves the food to
+                    each table fastest. That led to attempting the Guinness Record.
+                </p>
+                <div className='grid-popular'>
+                    <div className='popular'>
+                        <div className='popularCard'>
+                            <img src='./images/yammy.jpg' alt='kenya'/>
+                            <div className='popularContent'>
+                                <h1 id='manjoor'>Chicken Manjoori</h1>
+                                <h1 id='prize'>$15</h1>
+                            </div>
+                            <p id='dish'>Dish relished by all age groups as a starter dish at parties.</p>
+                        </div>
+                    </div>
+                    <div className='popular'>
+                        <div className='popularCard'>
+                            <img src='./images/yammy.jpg' alt='kenya'/>
+                            <div className='popularContent'>
+                                <h1 id='manjoor'>Chicken Manjoori</h1>
+                                <h1 id='prize'>$15</h1>
+                            </div>
+                            <p id='dish'>Dish relished by all age groups as a starter dish at parties.</p>
+                        </div>
+                    </div>
+                    <div className='popular'>
+                        <div className='popularCard'>
+                            <img src='./images/yammy.jpg' alt='kenya'/>
+                            <div className='popularContent'>
+                                <h1 id='manjoor'>Chicken Manjoori</h1>
+                                <h1 id='prize'>$15</h1>
+                            </div>
+                            <p id='dish'>Dish relished by all age groups as a starter dish at parties.</p>
+                        </div>
+                    </div>
+                    <div className='popular'>
+                        <div className='popularCard'>
+                            <img src='./images/yammy.jpg' alt='kenya'/>
+                            <div className='popularContent'>
+                                <h1 id='manjoor'>Chicken Manjoori</h1>
+                                <h1 id='prize'>$15</h1>
+                            </div>
+                            <p id='dish'>Dish relished by all age groups as a starter dish at parties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
        

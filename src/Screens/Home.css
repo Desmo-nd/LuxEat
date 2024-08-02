@@ -312,6 +312,7 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
 
+
 }
 .tittleHead {
     display: flex;
@@ -341,7 +342,6 @@ body {
     grid-gap: 20px;
     padding: 20px;
     width: 94%;
-    height: 70vh;
     margin: 0 auto;
 }
 .Bugger, .Pizza {
@@ -411,3 +411,15 @@ body {
     width: 90%;
     padding-left: 20px;
   }
+
+  .grid-popular {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+ 
+ @media (min-width: 600px) {
+     .grid-popular {
+         grid-template-columns: 1fr 1fr 1fr ;
+     }
+ }
