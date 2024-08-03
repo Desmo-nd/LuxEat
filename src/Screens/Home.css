@@ -1,9 +1,7 @@
 /* #292e36 */
 body {
     margin: 0;
-    padding: 0;
-    /* background-image: url('./images/back.jpeg'); */
-}
+    padding:}
 
 .container {
     background: #292e36;
@@ -104,9 +102,7 @@ body {
     font-size: 5em;
     font-family: 'Poppins-Bold';
 }
-#enjoy {
-    /* padding-top: -40px; */
-}
+
 #content {
     color: #fff;
     text-align: center;
@@ -241,9 +237,7 @@ body {
 }
 
 
-/* .year1 {
-    padding: 20px;
-} */
+
 
 #year {
     font-size: 2em;

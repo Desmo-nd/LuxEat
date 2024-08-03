@@ -295,6 +295,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="See">
+                    <p id="see">See all dishes</p>
+                </div>
             </div>
         </div>
 
