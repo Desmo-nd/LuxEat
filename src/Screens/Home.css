@@ -624,3 +624,18 @@ body {
   #BookNow:hover {
     background-color: #000; /* Button hover color */
   }
+
+
+  .Footer{
+    background: #292e36;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .innerFooter {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footerLogo {
+    display: flex;
+    justify-content: space-between;
+  }
