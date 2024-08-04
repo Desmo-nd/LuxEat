@@ -312,6 +312,17 @@ const Home = () => {
                         <img src='./images/calender.svg' alt='calender'/>
                         <p id='calender'>Opened 24/7</p>
                     </div>
+                    <div className='CalContainer'>
+                        <img src='./images/order.svg' alt='calender'/>
+                        <p id='calender'>Special Menus</p>
+                    </div>
+                    <div className='CalContainer'>
+                        <img src='./images/bike.svg' alt='calender'/>
+                        <p id='calender'>Home Delivery</p>
+                    </div>
+                    <div className='CalContainer1'>
+                       
+                        </div>
                 </div>               
             </div>
         </div>

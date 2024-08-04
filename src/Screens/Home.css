@@ -447,7 +447,7 @@ body {
     color: #fff;
     margin: auto;
  }
- .CalContainer{
+ .CalContainer {
     width: 100%;
     border: #3d4249 solid 20px;
     text-align: center;
@@ -455,6 +455,13 @@ body {
     box-sizing: border-box;
     margin-top: 20px;
  }
+ .CalContainer1 {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px; }
 .CalContainer img {
     display: block;
     margin: 0 auto;
@@ -464,4 +471,3 @@ body {
     font-size: 1.2em;
     color: #fff;
  }
- 
