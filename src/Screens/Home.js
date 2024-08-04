@@ -365,6 +365,31 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            
+            <div className='Book'>
+                <div className='innerBooking'>
+                    <div className='tittleHead'>
+                        <h1 id='RESERVATION'>RESERVATION</h1>
+                    </div>
+                    <h1 id='offer'>Book Your Table</h1>
+                    <div className='BookForm'>
+                        <div className='BookForm1'>
+                            <div className='NameEmail'>
+                                <input type='text' placeholder='Name' />
+                                <input type='text' placeholder='Email' />
+                            </div>
+                            <div className='PerDate'>
+                                <input type='text' placeholder='Phone' />
+                                <input type='text' placeholder='Date' />
+                                <input type='text' placeholder='Time' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='BookForm3'>
+                        <button id='BookNow'>Book A Table</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
        
