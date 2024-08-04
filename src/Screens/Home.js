@@ -204,7 +204,7 @@ const Home = () => {
             </div>
 
             <TestimonialCarousel/>
-
+            <div className='transparent'></div>
             <div className='offers'>
                 <div className='tittleHead'>
                     <h1 id='Offers'>OFFERS</h1>
@@ -326,6 +326,8 @@ const Home = () => {
                     </div>
                 </div>               
             </div>
+
+
 
             <div className='Blog'>
                 <div className='innercontainer'>

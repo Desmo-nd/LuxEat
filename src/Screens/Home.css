@@ -1,7 +1,15 @@
 /* #292e36 */
+/* background-image: url('/public/images/backgrd.jpg'); */
+
 body {
-    margin: 0;
-    padding:}
+    background-image: url('/public/images/bestback.jpg');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 0; 
+    overflow-x: hidden; 
+  }
 
 .container {
     background: #292e36;
@@ -207,6 +215,8 @@ body {
 
 
 
+
+
 .story{
     width: 85%;
     padding: 20px;
@@ -236,8 +246,6 @@ body {
     }
 }
 
-
-
 #year {
     font-size: 2em;
     margin: 0;
@@ -258,6 +266,13 @@ body {
 .sign img{
     width: auto;
     height: auto;
+}
+
+
+
+.menu {
+    background-color: #fff;
+    width: 100%;
 }
 
 .menu-grid{
@@ -301,10 +316,18 @@ body {
     font-size: 1.2em;
 }
 
-.offers {
-    padding-top: 30px;
-    padding-bottom: 20px;
 
+
+.transparent {
+    background: transparent;
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+.offers {
+    background-color: #fff;
 
 }
 .tittleHead {
@@ -405,6 +428,11 @@ body {
     padding-left: 20px;
   }
 
+
+    .MenuMain {
+        background: #fff;
+        width: 100%;
+    }
   .grid-popular {
     display: grid;
     grid-template-columns: 1fr;
@@ -417,17 +445,21 @@ body {
      }
  }
 
+
+
+
+
  .Great {
     background: #292e36;
 
  }
  .innercontainer {
     width: 90%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
  }
  .WhatHead {
     padding-top: 20px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
  }
  #What {
     width: 180px;
@@ -473,13 +505,20 @@ body {
  }
 
 
-.Blog {
 
+
+
+
+
+.Blog {
+    background: #fff;
+    width: 100%;
 }
 .innercontainer {
     width: 97%;
     margin: 0 auto; 
 }
+
 .grid-popular {
     display: grid;
     gap:30px;
@@ -568,7 +607,6 @@ body {
 }
 .tittleHead {
     text-align: center;
-    margin-top: 10%;
 }
 #RESERVATION{
     font-size: 1.2em;
@@ -622,7 +660,7 @@ body {
   }
   
   #BookNow:hover {
-    background-color: #000; /* Button hover color */
+    background-color: #000; 
   }
 
 
