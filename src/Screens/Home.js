@@ -299,6 +299,21 @@ const Home = () => {
                     <p id="see">See all dishes</p>
                 </div>
             </div>
+            <div className='Great'>
+                <div className='innercontainer'>
+                    <div className='WhatHead'>
+                        <h1 id='What'>WHAT WE OFFER</h1>
+                    </div>
+                    <h1 id='great'>Our Great Services</h1>
+                    <p id='game'>The atmosphere set the stage. It’s about more than just a dining room away 
+                        from your home. food takes the spotlight as guests.
+                    </p>
+                    <div className='CalContainer'>
+                        <img src='./images/calender.svg' alt='calender'/>
+                        <p id='calender'>Opened 24/7</p>
+                    </div>
+                </div>               
+            </div>
         </div>
 
        

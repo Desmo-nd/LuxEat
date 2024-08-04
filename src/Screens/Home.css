@@ -416,3 +416,52 @@ body {
          grid-template-columns: 1fr 1fr 1fr ;
      }
  }
+
+ .Great {
+    background: #292e36;
+
+ }
+ .innercontainer {
+    width: 90%;
+    margin: 0 auto;
+ }
+ .WhatHead {
+    padding-top: 20px;
+    margin: 0 auto;
+ }
+ #What {
+    width: 180px;
+    font-size: 1.4em;
+    text-align: center;
+    color: #fff;
+    border-bottom: #e1b168 solid 1px;
+    border-top: #e1b168 solid 1px;
+ }
+ #great {
+    font-size: 2em;
+    color: #fff;
+    margin: auto;
+ }
+ #game {
+    font-size: 1.15em;
+    color: #fff;
+    margin: auto;
+ }
+ .CalContainer{
+    width: 100%;
+    border: #3d4249 solid 20px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+ }
+.CalContainer img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+}
+ #calender{
+    font-size: 1.2em;
+    color: #fff;
+ }
+ 
