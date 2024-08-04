@@ -395,7 +395,9 @@ const Home = () => {
                 <div className='innerFooter'>
                     <div className='footerLogo'>
                         <p id='tag'>#TheLuxuryEat</p>
-                        <img src='./images/logo.svg' alt='logo'/>
+                        <div className='socialImg'>
+                            <img src='./images/logo.svg' alt='logo'/>
+                        </div>
                         <div className='social'>
                             <img src='./images/ig.svg' alt='facebook'/>
                             <img src='./images/facebook.svg' alt='twitter'/>
@@ -406,36 +408,37 @@ const Home = () => {
                     <div className='footerMenu'>
                         <div className='ContFooter'>
                             <p id='contHead'>CONTACT</p>
-                            <p id='locHead'>5 Kenyatta Avenue, 75015</p>
+                            <p id='locHead'>Kenyatta Avenue, 75015</p>
                             <p id='locHead'>Nairobi</p>
                             <p id='NUm'>+254 740 524 375</p>
-                            <p id='NUm'>mwirgdesmond@gmail.com</p>
+                            <p id='NUm'>desmond@gmail.com</p>
                         </div>
+
                         <div className='JoinFooter'>
                             <p id='joinUs'>Join our mailing list for updates,
                                 Get news & offers events.</p>
                             <div className='JoinEmail'>
-                                <input type='text' placeholder='Enter your email address'/>
-                                <button id='Join'>Join</button>
+                                <input type='text' placeholder='Email'/>
+                                <div className='BookForm4'>
+                                    <button id='BookNow1'>Subscribe</button>
+                                </div>
                             </div>
                         </div>
+
                         <div className='OpenFooter'>
-                            <p id='contHead'>WORKING HOURS</p>
-                            <p id='week'><span id='days'>Mon - Fri</span> 7.00am – 6.00pm</p>
-                            <p id='week'><span id='days'>Sat</span> 7.00am – 6.00pm</p>
-                            <p id='week'><span id='days'>Sun</span> 8.00am – 6.00pm</p>
+                            <p id='contHead1'>WORKING HOURS</p>
+                            <p id='week'><span id='days'>Mon - Fri : </span> 7.00am – 6.00pm</p>
+                            <p id='week'><span id='days'>Sat : </span> 7.00am – 6.00pm</p>
+                            <p id='week'><span id='days'>Sun : </span> 8.00am – 6.00pm</p>
                         </div>
                     </div>
-                    <div className='copyRight'>
-                        <p id='copy'>© Copyright - TastEat | Designed by Desmond</p>
-                        <p id='copy'>Phone - +254 740 524 375 | Email: mwirgdesmond@gmail.com | desmondmwrigi.me</p>
-
-                    </div>
+                </div>
+                <div className='copyRight'>
+                    <p id='copy'>© Copyright - TastEat | Designed by Desmond</p>
+                    <p id='copy'>Phone - +254 740 524 375 | Email: mwirgdesmond@gmail.com | desmondmwrigi.me</p>
                 </div>
             </div>
         </div>
-
-       
     );
    
 };

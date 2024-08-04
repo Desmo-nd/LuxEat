@@ -632,10 +632,119 @@ body {
     padding-bottom: 20px;
   }
   .innerFooter {
-    width: 90%;
+    width: 94%;
     margin: 0 auto;
   }
   .footerLogo {
     display: flex;
     justify-content: space-between;
   }
+#tag {
+    font-size: 1.3em;
+    color: #fff;
+    margin: auto;
+    left: 0;
+
+    
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 15%;
+    margin: auto;
+  }
+  .socialImg {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footerMenu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;   
+  }
+  .ContFooter {
+    width: 29%;
+  }
+  #contHead {
+    font-size: 1.2em;
+    color: #fff;
+    border-bottom: #e1b168 solid 1px;
+    border-top: #e1b168 solid 1px;
+    width: 94px;
+  }
+  #locHead{
+    font-size: 0.9em;
+    color: #fff;
+  }
+  #NUm {
+    font-size: 1em;
+    color: #e1b168;
+  }
+
+  .JoinFooter {
+    text-align: center;
+    width: 120%;
+  }
+  #joinUs{
+    font-size: 1.1em;
+    color: #fff;
+    width: 58%;
+    margin: auto;
+  }
+  .JoinEmail {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    margin: 50px auto;
+  }
+.JoinEmail input {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: #a8acb3 solid 1px;
+    height: 40px;
+}
+
+.JoinEmail button {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #fff; 
+    border: none;
+    color: #000;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#contHead1{
+    font-size: 1.2em;
+    color: #fff;
+    border-bottom: #e1b168 solid 1px;
+    border-top: #e1b168 solid 1px;
+    width: 162px;
+  }
+
+  .OpenFooter {
+    width: 29%;
+  }
+  #week{
+    font-size: 1em;
+    color: #fff;
+  }
+  #days {
+    font-size: 1em;
+    color: #e1b168;
+  }
+
+.copyRight {
+    text-align: center;
+    color: #fff;
+    border-top: #a8acb3 solid 1px;
+  }
+ 
