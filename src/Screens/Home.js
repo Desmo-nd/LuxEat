@@ -299,6 +299,8 @@ const Home = () => {
                     <p id="see">See all dishes</p>
                 </div>
             </div>
+
+
             <div className='Great'>
                 <div className='innercontainer'>
                     <div className='WhatHead'>
@@ -321,9 +323,47 @@ const Home = () => {
                         <p id='calender'>Home Delivery</p>
                     </div>
                     <div className='CalContainer1'>
-                       
-                        </div>
+                    </div>
                 </div>               
+            </div>
+
+            <div className='Blog'>
+                <div className='innercontainer'>
+                    <div className='tittleHead'>
+                        <h1 id='Offers'>BLOG</h1>
+                    </div>
+                    <h1 id='offer'>Be First Who Read News</h1>
+                    <p id='latest'>Explore the latest stories about our dishes, offers,
+                        events and future plans here.
+                    </p>
+
+                    <div className='grid-popular'>
+                        <div className='leged'>
+                            <img src='./images/niceon1.jpg' alt='kenya'/>
+                            <div className='NavContent'>
+                                <h1 id='DELICIOUS'>DELICIOUS</h1>
+                                <h1 id='AUGUST'>AUGUST 04, 2024</h1>
+                            </div>
+                            <div className='NavContent1'>
+                                <h1 id='Cuisine'>The Legend Of US Cuisine: The Story Of Hungry People</h1>
+                                <p id='Capitalize'>Capitalize on low-hanging fruit to identify a ballpark value
+                                     added matrix economically and the creative activity to beta test override the food quality.</p>
+                            </div>
+                        </div>
+                        <div className='leged'>
+                            <img src='./images/mshikaki.jpg' alt='kenya'/>
+                            <div className='NavContent'>
+                                <h1 id='DELICIOUS'>COOKING</h1>
+                                <h1 id='AUGUST'>AUGUST 04, 2024</h1>
+                            </div>
+                            <div className='NavContent1'>
+                                <h1 id='Cuisine'>The Most Popular Delicious Food Of Mediterranean Cuisine</h1>
+                                <p id='Capitalize'>Strategies on low-hanging fruit to identify a ballpark value added 
+                                    matrix economically and the creative activity to beta test override the food quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

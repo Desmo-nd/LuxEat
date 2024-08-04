@@ -471,3 +471,75 @@ body {
     font-size: 1.2em;
     color: #fff;
  }
+
+
+.Blog {
+
+}
+.innercontainer {
+    width: 97%;
+    margin: 0 auto; 
+}
+.grid-popular {
+    display: grid;
+    gap:30px;
+    padding: 20px;
+}
+@media (min-width: 600px) {
+    .grid-popular {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+.leged{
+    border: #bdbcc5 solid 0.01px;
+}
+.leged img {
+    width: 100%;
+    height: 45%;
+}
+#latest {
+    width: 45%;
+    font-size: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+.NavContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#DELICIOUS{
+    font-size: 1.1em;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    border-bottom: #e1b168 solid 1px;
+    border-top: #e1b168 solid 1px;
+}
+#AUGUST {
+    font-size: 1.1em;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    border-bottom: #e1b168 solid 1px;
+    border-top: #e1b168 solid 1px;
+}
+
+.NavContent1{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#Cuisine {
+    font-size: 1.4em;
+    margin: 0 auto;
+    color: #000;
+
+}
+#Capitalize{
+    font-size: 1em;
+    margin: 10px auto;
+    color: #000;
+}
+
