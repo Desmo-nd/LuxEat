@@ -1,22 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import TestimonialCarousel from '../Components/Testimonials'
+import TestimonialCarousel from '../Components/Testimonials';
+import Logo from '../Components/Logo';
 
 const Home = () => {
     return (
         <div className="Home">
             <div className="container">
-                <div className="logo">
-                    <div className="phone">
-                        <p id="call">Call - 123-456-7890</p>
-                    </div>
-                    <div className="LogoImg">
-                        <img src="./images/logo.svg" alt="logo" />
-                    </div>
-                    <div className="Reserv">
-                        <p id="reservation">Reservation</p>
-                    </div>
-                </div>
+                <Logo />
                 <div className="nav">
                     <div className="left">
                         <ul>
