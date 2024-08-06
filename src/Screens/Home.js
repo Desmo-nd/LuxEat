@@ -8,24 +8,28 @@ const Home = () => {
         <div className="Home">
             <div className="container">
                 <Logo />
+
                 <div className="nav">
-                    <div className="left">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
+                    <div className="InnerNav">
+                        <div className="left">
+                            <ul>
+                            <li><a href="#home" id='home'>Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#menu">Our Menu</a></li>
                             <li><a href="#pages">Pages</a></li>
                             <li><a href="#blog">Blog</a></li>
-                            <li><a href="#contact">Contact</a></li>   
-                        </ul>
-                    </div>
-                    <div className="right">
-                        <ul className="right">
-                            <li><a href="#login">Login</a></li>
-                            <li><a href="#register">Register</a></li>
-                        </ul>
+                            <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div className="right">
+                            <img src='./images/ig.svg' alt='facebook'/>
+                            <img src='./images/facebook.svg' alt='twitter'/>
+                            <img src='./images/pin.svg' alt='instagram'/>
+                            <img src='./images/x.svg' alt='instagram'/>
+                        </div>
                     </div>
                 </div>
+
                 <div className="welcome">
                     <p className="top">
                     <label id="welcome2">Welcome to</label><br></br>

@@ -11,7 +11,6 @@
     justify-content: center;
     width: 20%;
     height: 70px;
-    /* background: transparent; */
     border: #e1b168 solid 2px;
     margin: auto;
     transition: background 0.3s ease;
@@ -44,7 +43,6 @@
     color: #fff;
   }
   #reservation {
-    /* background: #e1b168; */
     color: #000;
     padding: 10px;
     border: none;

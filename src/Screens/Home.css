@@ -16,49 +16,55 @@ body {
 }
 
 .nav {
+    height: 80px;
+    width: 100vw;
+    margin: 0 auto;
+    border-bottom: #3d4249 solid 1px;
+    border-top: #3d4249 solid 1px;
+}
+.InnerNav {
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-bottom: #fff solid 1px;
-    border-top: #fff solid 1px;
+    width: 98%;
 }
 .left ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
-    padding-top: 30px;
     list-style: none;
     text-decoration: none;
-    color: #fff;
+    margin: 30px auto;
+
 }
 .left ul li a{
     padding: 10px;
     color: #fff;
+    font-weight: 400;
+    font-size: 1.1em;
     text-decoration: none;
 }
 .left ul li :hover {
     color: #e1b168;
 }
-.right ul{
+
+.right {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 30px;
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
+    justify-content: space-between;
 }
-.right ul li a{
+.right img{
     padding: 10px;
     color: #fff;
     text-decoration: none;
+    height: 25px;
+    margin: auto;
 }
 
+
+
+
+#home {
+    color: #e1b168;
+}
 .welcome {
     width: 90%;
     margin: 0 auto;
