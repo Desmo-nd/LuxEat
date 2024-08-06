@@ -48,7 +48,8 @@ const Home = () => {
                     </div>
                 
                     <div className="TopImage">
-                        <img src="./images/back.jpeg" alt="food" />
+                    <img src='./images/settings.svg' alt='settings' className="settings-img" />
+                    <img src="./images/back.jpeg" alt="food" className="back-img" />
                     </div>
                 </div> 
             </div>
