@@ -9,6 +9,8 @@ const Home = () => {
             <div className="container">
                 <Logo />
 
+
+
                 <div className="nav">
                     <div className="InnerNav">
                         <div className="left">
@@ -30,10 +32,12 @@ const Home = () => {
                     </div>
                 </div>
 
+
+
                 <div className="welcome">
                     <p className="top">
-                    <label id="welcome2">Welcome to</label><br></br>
-                    <label id="enjoy">Restaurant</label>
+                        <label id="welcome2">Welcome to</label><br></br>
+                        <label id="enjoy">Restaurant</label>
                     </p>
                     <p id="content">The people, food and the prime locations make the
                          perfect place good friends & family to come together and have great time.
@@ -48,6 +52,10 @@ const Home = () => {
                     </div>
                 </div> 
             </div>
+
+
+
+            
             <div className="Locate">
                 <div className="grid">
                     <div className="pin">
