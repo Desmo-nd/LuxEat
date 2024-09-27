@@ -9,8 +9,6 @@ const Home = () => {
             <div className="container">
                 <Logo />
 
-
-
                 <div className="nav">
                     <div className="InnerNav">
                         <div className="left">
@@ -42,20 +40,21 @@ const Home = () => {
                     <p id="content">The people, food and the prime locations make the
                          perfect place good friends & family to come together and have great time.
                     </p>
-                    <div className="phone">
-                        <p id="call">View Menu</p>
+                    <div className="phone1">
+                        <p id="call1">View Menu</p>
                     </div>
-                
-                    <div className="TopImage">
-                    <img src='./images/settings.svg' alt='settings' className="settings-img" />
-                    <img src="./images/back.jpeg" alt="food" className="back-img" />
+                    <div className="Widt">
+                        <div className="TopImage">
+                            <img src='./images/settings.svg' alt='settings' className="settings-img" />
+                            <img src="./images/back.jpeg" alt="food" className="back-img" />
+                        </div>
                     </div>
                 </div> 
             </div>
 
 
 
-            
+
             <div className="Locate">
                 <div className="grid">
                     <div className="pin">
