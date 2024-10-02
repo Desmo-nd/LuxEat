@@ -52,26 +52,25 @@ const Home = () => {
                         </div>
                     </div> */}
                     <div className="Widt">
-  <div className="TopImage">
-    <img
-      src='./images/settings.svg'
-      alt='settings'
-      className="settings-img"
-    />
-    <img
-      src="./images/back.jpeg"
-      alt="food"
-      className="back-img"
-      loading="lazy"
-      sizes="(max-width: 479px) 100vw, (max-width: 767px) 84vw, (max-width: 991px) 69vw, (max-width: 1279px) 43vw, (max-width: 1439px) 89vw, 1201px"
-      srcSet="./images/back-500.jpeg 500w,
-              ./images/back-800.jpeg 800w,
-              ./images/back-1080.jpeg 1080w,
-              ./images/back.jpeg 1201w"
-    />
-  </div>
-</div>
-
+                        <div className="TopImage">
+                            <img
+                            src='./images/settings.svg'
+                            alt='settings'
+                            className="settings-img"
+                            />
+                            <img
+                            src="./images/back.jpeg"
+                            alt="food"
+                            className="back-img"
+                            loading="lazy"
+                            sizes="(max-width: 479px) 100vw, (max-width: 767px) 84vw, (max-width: 991px) 69vw, (max-width: 1279px) 43vw, (max-width: 1439px) 89vw, 1201px"
+                            srcSet="./images/back-500.jpeg 500w,
+                                    ./images/back-800.jpeg 800w,
+                                    ./images/back-1080.jpeg 1080w,
+                                    ./images/back.jpeg 1201w"
+                            />
+                        </div>
+                    </div>
                 </div> 
             </div>
 
